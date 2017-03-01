@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	service := "localhost:3000"
+	service := ":3000"
 	tcpAddr, err := net.ResolveTCPAddr("tcp", service)
 	checkError(err)
 
